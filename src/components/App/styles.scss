@@ -1,0 +1,15 @@
+@use 'src/styles/vars';
+
+.app {
+  width: 800px;
+  margin: 0 auto;
+  padding: vars.$gutter;
+  background-color: vars.$primary-color;
+
+  .header{
+
+    img{
+      max-width: 200px;
+    }
+  }
+}

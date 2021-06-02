@@ -1,0 +1,25 @@
+@use 'src/styles/vars';
+
+.ui.grid>.row>.column.presentation{
+  margin-bottom: vars.$gutter;
+
+  .avatar{
+    max-width: 100%;
+    display: block;
+    background-color: vars.$light-color;
+  }
+  .segments{
+    background-color: #fff;
+  }
+  em{
+    color: vars.$medium-color;
+    margin-bottom: vars.$gutter;
+    display: block;
+  }
+  .ui.segment{
+
+    &:first-child{
+      padding: 0;
+    }
+  }
+}
